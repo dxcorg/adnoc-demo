@@ -1,17 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
+
 metadata:
   name: adnoc-demo
+  description: ADNOC Demo Application
   annotations:
     github.com/project-slug: dxcorg/adnoc-demo
-    backstage.io/techdocs-ref: value
+    backstage.io/techdocs-ref: dir:.
+
 spec:
-  type: other
-  lifecycle: unknown
+  type: service
+  lifecycle: production
   owner: guests
-techdocs:
-  builder: 'local' # Alternatives - 'external'
-  generator:
-    runIn: 'docker' # Alternatives - 'local'
-  publisher:
-    type: 'local' # Alternatives include 'googleGcs', 'awsS3', and other supported publishers. See configuration documentation for the full list.
