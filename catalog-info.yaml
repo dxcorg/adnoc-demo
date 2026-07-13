@@ -4,6 +4,7 @@ metadata:
   name: adnoc-demo
   annotations:
     github.com/project-slug: dxcorg/adnoc-demo
+    backstage.io/techdocs-ref: value
 spec:
   type: other
   lifecycle: unknown
