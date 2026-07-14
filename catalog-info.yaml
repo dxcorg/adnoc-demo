@@ -6,7 +6,7 @@ metadata:
   description: ADNOC Demo Application
   annotations:
     github.com/project-slug: dxcorg/adnoc-demo
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:docs
 
 spec:
   type: service
